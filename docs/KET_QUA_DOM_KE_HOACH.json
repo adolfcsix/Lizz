@@ -1,0 +1,11 @@
+{
+  "method": "DOM jsdom + HTTP local, không phải browser/layout",
+  "pass": [
+    "Tìm giảng viên cùng bộ lọc chương trình",
+    "Mở kế hoạch, tìm không dấu, xuất CSV",
+    "Chọn chính xác môn và bỏ chọn",
+    "Đăng ký thật qua HTTP và cập nhật tiến độ sau ghi",
+    "Rút thật qua HTTP và khôi phục trạng thái cần học",
+    "Sinh viên chưa có chương trình giữ trang đăng ký"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "method": "DOM jsdom + HTTP local, không phải browser/layout",
+  "pass": [
+    "Quản lý thêm và công bố thủ tục qua biểu mẫu, không thực thi HTML trong tên",
+    "Sinh viên xem biểu phí, tính số lượng, lưu nháp và xác nhận gửi",
+    "Cán bộ liên kết đúng khoản thu qua giao diện; không tự tạo phiếu thu",
+    "Nhân viên tiếp nhận và yêu cầu bổ sung",
+    "Sinh viên bổ sung/gửi lại; cán bộ ghi kết quả và xác nhận bàn giao",
+    "Sinh viên xem lịch sử/kết quả và xuất CSV; không ghi thu tiền từ phí dự kiến",
+    "Tài khoản sinh viên khác không thấy hồ sơ"
+  ]
+}

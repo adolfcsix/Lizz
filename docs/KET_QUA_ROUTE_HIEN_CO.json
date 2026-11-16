@@ -1,0 +1,403 @@
+{
+  "method": "Ứng dụng chính: DOM jsdom + HTTP local/kho tạm; không phải kiểm tra bố cục browser",
+  "routes": 66,
+  "results": [
+    {
+      "role": "MANAGER",
+      "route": "#home",
+      "title": "Tổng quan điều hành",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#tasks",
+      "title": "Giao việc và điều phối",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#notifications",
+      "title": "Thông báo",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#approvals",
+      "title": "Hồ sơ chờ phê duyệt",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#students",
+      "title": "Hồ sơ sinh viên",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#profile-requests",
+      "title": "Yêu cầu cập nhật hồ sơ",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#student-status",
+      "title": "Bảo lưu và quay lại học",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#catalog",
+      "title": "Danh mục đào tạo",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#student-services",
+      "title": "Thủ tục sinh viên",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#curriculum",
+      "title": "Chương trình đào tạo",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#academics",
+      "title": "Môn học và lớp học phần",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#schedule",
+      "title": "Thời khóa biểu",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#attendance",
+      "title": "Điểm danh và điều kiện dự thi",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#finance",
+      "title": "Học phí và thu tiền",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#exams",
+      "title": "Lịch thi",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#policies",
+      "title": "Đợt đăng ký và điều kiện",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#grades",
+      "title": "Điểm và công bố",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#grade-reviews",
+      "title": "Duyệt điều chỉnh điểm",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#accounts",
+      "title": "Tài khoản và phân quyền",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#audit",
+      "title": "Lịch sử thao tác",
+      "errors": []
+    },
+    {
+      "role": "MANAGER",
+      "route": "#profile",
+      "title": "Tài khoản của tôi",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#home",
+      "title": "Công việc của tôi",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#tasks",
+      "title": "Công việc của tôi",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#notifications",
+      "title": "Thông báo",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#approvals",
+      "title": "Hồ sơ đã gửi duyệt",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#students",
+      "title": "Hồ sơ sinh viên",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#profile-requests",
+      "title": "Yêu cầu cập nhật hồ sơ",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#student-status",
+      "title": "Bảo lưu và quay lại học",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#catalog",
+      "title": "Danh mục đào tạo",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#student-services",
+      "title": "Thủ tục sinh viên",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#curriculum",
+      "title": "Chương trình đào tạo",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#academics",
+      "title": "Môn học và lớp học phần",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#schedule",
+      "title": "Thời khóa biểu",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#attendance",
+      "title": "Điểm danh và điều kiện dự thi",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#finance",
+      "title": "Học phí và thu tiền",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#exams",
+      "title": "Lịch thi",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#policies",
+      "title": "Đợt đăng ký và điều kiện",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#grades",
+      "title": "Kết quả học tập",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#grade-reviews",
+      "title": "Yêu cầu rà soát điểm",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#audit",
+      "title": "Lịch sử thao tác",
+      "errors": []
+    },
+    {
+      "role": "STAFF",
+      "route": "#profile",
+      "title": "Tài khoản của tôi",
+      "errors": []
+    },
+    {
+      "role": "LECTURER",
+      "route": "#home",
+      "title": "Tổng quan giảng dạy",
+      "errors": []
+    },
+    {
+      "role": "LECTURER",
+      "route": "#notifications",
+      "title": "Thông báo",
+      "errors": []
+    },
+    {
+      "role": "LECTURER",
+      "route": "#curriculum",
+      "title": "Chương trình đào tạo",
+      "errors": []
+    },
+    {
+      "role": "LECTURER",
+      "route": "#academics",
+      "title": "Lớp giảng dạy",
+      "errors": []
+    },
+    {
+      "role": "LECTURER",
+      "route": "#schedule",
+      "title": "Lịch giảng dạy",
+      "errors": []
+    },
+    {
+      "role": "LECTURER",
+      "route": "#attendance",
+      "title": "Điểm danh và điều kiện dự thi",
+      "errors": []
+    },
+    {
+      "role": "LECTURER",
+      "route": "#exams",
+      "title": "Lịch thi",
+      "errors": []
+    },
+    {
+      "role": "LECTURER",
+      "route": "#grades",
+      "title": "Nhập điểm học phần",
+      "errors": []
+    },
+    {
+      "role": "LECTURER",
+      "route": "#grade-reviews",
+      "title": "Rà soát và phúc khảo điểm",
+      "errors": []
+    },
+    {
+      "role": "LECTURER",
+      "route": "#profile",
+      "title": "Tài khoản của tôi",
+      "errors": []
+    },
+    {
+      "role": "STUDENT",
+      "route": "#home",
+      "title": "Tổng quan học tập",
+      "errors": []
+    },
+    {
+      "role": "STUDENT",
+      "route": "#notifications",
+      "title": "Thông báo",
+      "errors": []
+    },
+    {
+      "role": "STUDENT",
+      "route": "#students",
+      "title": "Hồ sơ của tôi",
+      "errors": []
+    },
+    {
+      "role": "STUDENT",
+      "route": "#profile-requests",
+      "title": "Yêu cầu hồ sơ của tôi",
+      "errors": []
+    },
+    {
+      "role": "STUDENT",
+      "route": "#student-status",
+      "title": "Bảo lưu và quay lại học",
+      "errors": []
+    },
+    {
+      "role": "STUDENT",
+      "route": "#student-services",
+      "title": "Thủ tục sinh viên",
+      "errors": []
+    },
+    {
+      "role": "STUDENT",
+      "route": "#curriculum",
+      "title": "Chương trình của tôi",
+      "errors": []
+    },
+    {
+      "role": "STUDENT",
+      "route": "#academics",
+      "title": "Đăng ký học phần",
+      "errors": []
+    },
+    {
+      "role": "STUDENT",
+      "route": "#schedule",
+      "title": "Lịch học của tôi",
+      "errors": []
+    },
+    {
+      "role": "STUDENT",
+      "route": "#attendance",
+      "title": "Điểm danh và điều kiện dự thi",
+      "errors": []
+    },
+    {
+      "role": "STUDENT",
+      "route": "#finance",
+      "title": "Học phí và công nợ",
+      "errors": []
+    },
+    {
+      "role": "STUDENT",
+      "route": "#exams",
+      "title": "Lịch thi",
+      "errors": []
+    },
+    {
+      "role": "STUDENT",
+      "route": "#grades",
+      "title": "Kết quả học tập",
+      "errors": []
+    },
+    {
+      "role": "STUDENT",
+      "route": "#grade-reviews",
+      "title": "Phúc khảo điểm",
+      "errors": []
+    },
+    {
+      "role": "STUDENT",
+      "route": "#profile",
+      "title": "Tài khoản của tôi",
+      "errors": []
+    }
+  ],
+  "errors": []
+}

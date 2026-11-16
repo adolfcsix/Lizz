@@ -1,0 +1,7 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> lizz-university-management@hiện tại ai:check
+> node --env-file-if-exists=.env scripts/check-ai.js
+
+.env not found. Continuing without it.
+LizzChat chưa nghiệm thu: LizzChat chưa đủ cấu hình: kiểm tra LIZZCHAT_ENABLED, GEMINI_API_KEY và GEMINI_MODEL trong .env.

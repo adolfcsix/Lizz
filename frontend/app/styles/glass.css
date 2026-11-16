@@ -1,0 +1,214 @@
+/* Lizz: lớp trình bày độc lập, giữ nguyên nhận diện và nghiệp vụ. */
+@media screen {
+  :root {
+    --glass-ease: cubic-bezier(.22, 1, .36, 1);
+    --glass-shadow: 0 12px 36px #4c243509, 0 2px 6px #4c243504;
+  }
+  body {
+    background: radial-gradient(ellipse at 88% 0%, #af925e18, transparent 48%),
+      radial-gradient(ellipse at 12% 42%, #742e470b, transparent 50%), var(--paper);
+  }
+  .app-shell {
+    transition: grid-template-columns 340ms var(--glass-ease), margin-right 160ms;
+  }
+  #sidebar {
+    background: radial-gradient(ellipse at 0% 0%, #af925e25, transparent 55%),
+      linear-gradient(160deg, #381723f5, #62283ef5);
+    border-right: 1px solid #ffffff25;
+    box-shadow: 8px 0 32px #3817230b, inset -1px 0 #ffffff0a;
+    scrollbar-width: thin;
+    scrollbar-color: #af925e77 transparent;
+    transition: padding 340ms var(--glass-ease), transform 340ms var(--glass-ease);
+  }
+  #sidebar nav a {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: background 180ms, color 180ms, box-shadow 180ms,
+      padding 340ms var(--glass-ease);
+  }
+  #sidebar nav a svg { flex-shrink: 0; }
+  #sidebar nav a span {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: opacity 160ms;
+  }
+  #sidebar nav a:hover { background: #ffffff12; }
+  #sidebar nav a[aria-current="page"] {
+    background: linear-gradient(110deg, #fffdf9, #f3eade);
+    box-shadow: inset 3px 0 var(--gold), inset 0 1px #ffffff,
+      0 4px 12px #210d1718;
+  }
+  #sidebar .collapse {
+    background: #ffffff10;
+    border: 1px solid #ffffff25;
+    border-radius: 50%;
+    transition: background 180ms, transform 180ms;
+  }
+  #sidebar .collapse:hover { background: #ffffff25; }
+  .brand-lockup { transition: transform 340ms var(--glass-ease); }
+  .topbar {
+    background: #fffdf9eb;
+    border-bottom-color: #ffffff;
+    box-shadow: 0 4px 20px #4c243504;
+  }
+  .page-heading, .section-heading, .dialog-header, .pagination { flex-wrap: wrap; }
+  .page-heading > *, .section-heading > *, .dialog-header > *, .toolbar > *,
+  .form-grid > *, .quick-links > a > div { min-width: 0; }
+  :is(h1, h2, h3, .page-heading p, .stat-grid strong, .badge, .form-error, .hint) {
+    overflow-wrap: anywhere;
+  }
+  .badge { white-space: normal; }
+  .topbar summary {
+    white-space: normal;
+    overflow: visible;
+    overflow-wrap: anywhere;
+    line-height: 1.4;
+  }
+  .topbar .breadcrumb { min-width: 0; overflow-wrap: anywhere; }
+  .topbar { height: auto; padding-top: 12px; padding-bottom: 12px; }
+  .table-scroll { max-width: 100%; }
+  .table-scroll:focus-visible { outline: 2px solid var(--gold); outline-offset: -2px; }
+  .startup-error {
+    margin: 8vh auto; padding: 28px; width: min(600px, calc(100% - 32px));
+    background: var(--surface); border: 1px solid var(--line); border-radius: 18px;
+    box-shadow: var(--glass-shadow); overflow-wrap: anywhere;
+  }
+  .panel, .stat-grid article, .quick-links > a, .auth-card {
+    background: linear-gradient(135deg, #ffffffed, #fffdf9e0);
+    border: 1px solid #e8e1db;
+    border-radius: 18px;
+    box-shadow: var(--glass-shadow), inset 0 1px 0 #ffffff;
+  }
+  .stat-grid article {
+    background: linear-gradient(135deg, #ffffffed, #f5eee6e8);
+    transition: transform 220ms var(--glass-ease), box-shadow 220ms;
+  }
+  .stat-grid article:first-child {
+    border-color: #af925e66;
+    background: linear-gradient(135deg, #fffdf9, #efe5d5);
+  }
+  .academic-hero {
+    border: 1px solid #af925e66;
+    border-radius: 22px;
+    box-shadow: 0 14px 36px #4c24351a, inset 0 1px #ffffff25;
+  }
+  .quick-links > a {
+    transition: transform 220ms var(--glass-ease), box-shadow 220ms, border-color 180ms;
+  }
+  button, .primary {
+    transition: background 180ms, border-color 180ms, box-shadow 180ms,
+      transform 180ms var(--glass-ease);
+  }
+  .primary { box-shadow: inset 0 1px #ffffff22, 0 4px 12px #742e4714; }
+  button:active:not(:disabled), .primary:active { transform: translateY(1px); }
+  input, select, textarea { transition: border-color 180ms, box-shadow 180ms; }
+  .account-menu {
+    background: #fffdf9fa;
+    border-color: #e8e1db;
+    border-radius: 16px;
+    box-shadow: 0 16px 44px #3817231a, inset 0 1px white;
+    animation: glass-menu-in 180ms var(--glass-ease) both;
+  }
+  dialog[open] {
+    border: 1px solid #e8e1db;
+    border-radius: 20px;
+    box-shadow: 0 24px 80px #38172330;
+    animation: glass-menu-in 220ms var(--glass-ease) both;
+  }
+  dialog::backdrop { background: #28131d66; }
+  .auth-card { box-shadow: 0 20px 60px #4c24350c, inset 0 1px white; }
+  main#content { animation: glass-content-in 260ms var(--glass-ease) both; }
+  :is(button, a, summary):focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 3px;
+  }
+  @supports (backdrop-filter: blur(12px)) {
+    .topbar, .auth-card { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+    dialog::backdrop { backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); }
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .stat-grid article:hover, .quick-links > a:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 16px 36px #4c243512, inset 0 1px white;
+    }
+  }
+  @media (min-width: 701px) {
+    .collapsed #sidebar nav a { justify-content: flex-start; padding-left: 19px; gap: 0; }
+    .collapsed #sidebar nav a span { display: none; }
+    .collapsed #sidebar nav a svg { width: 18px; height: 18px; }
+    .collapsed .side-caption { display: block; height: 0; margin: 0; opacity: 0; overflow: hidden; }
+    .collapsed .side-brand { width: 56px; }
+    .collapsed #sidebar .brand-lockup { width: 48px; transform: none; }
+    .collapsed #sidebar .brand img { width: 48px; height: 32px; object-position: center; }
+    .collapsed { grid-template-columns: 76px minmax(0, 1fr); }
+  }
+  @media (max-width: 700px) {
+    #sidebar { width: min(280px, 88vw); }
+    .mobile-open.collapsed #sidebar { width: min(280px, 88vw); }
+    .topbar { background: #fffdf9f5; }
+    .panel, .stat-grid article, .quick-links > a { border-radius: 15px; }
+    .academic-hero { border-radius: 18px; }
+    .app-shell { transition: none; }
+    .topbar-account { flex-shrink: 0; }
+    .pagination { justify-content: flex-start; }
+    .pagination span { flex-basis: 100%; }
+    .dialog-header button { flex-shrink: 0; }
+  }
+  @keyframes glass-content-in { from { opacity: .4; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  @keyframes glass-menu-in { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  }
+}
+
+/* Sidebar: cuộn riêng phần chức năng, không co/giãn các hàng theo chiều cao. */
+@media screen {
+  #sidebar { overflow: hidden; padding: 20px 14px 14px; }
+  #sidebar .side-brand { flex: 0 0 auto; min-height: 76px; margin: 0 0 12px; width: 100%; overflow: visible; }
+  #sidebar .brand { display: flex; align-items: center; justify-content: center; }
+  #sidebar .collapse { position: static; width: 30px; height: 30px; min-height: 30px; flex: 0 0 30px; margin: 0; align-self: center; font-size: 24px; line-height: 1; }
+  #sidebar .side-brand { display: flex; align-items: center; gap: 8px; }
+  #sidebar .brand { flex: 1; min-width: 0; }
+  #sidebar .brand .brand-lockup, #sidebar .brand img { width: 144px; }
+  #sidebar .side-caption { flex: 0 0 auto; margin: 0 10px 12px; }
+  #sidebar nav { flex: 1 1 0; min-height: 0; overflow-y: auto; overflow-x: hidden; justify-content: flex-start; gap: 4px; scrollbar-width: thin; scrollbar-color: #af925e77 transparent; }
+  #sidebar .nav-group, #sidebar .nav-group-links { display: flex; flex-direction: column; gap: 3px; flex: 0 0 auto; min-height: 0; }
+  #sidebar .nav-group-links[hidden] { display: none; }
+  #sidebar .nav-group { margin: 0; padding: 0; }
+  #sidebar .nav-group-toggle { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 40px; padding: 8px 10px; border: 0; background: transparent; color: #dcc8ce; text-align: left; font-size: 11px; letter-spacing: .02em; box-shadow: none; }
+  #sidebar .nav-group-toggle i { font-style: normal; transition: transform 160ms; }
+  #sidebar .nav-group-toggle[aria-expanded="true"] i { transform: rotate(180deg); }
+  #sidebar .nav-group-toggle:hover { background: #ffffff0c; }
+  #sidebar nav a { flex: 0 0 auto; min-height: 42px; padding: 9px 12px; border-left: 0; align-items: center; gap: 10px; }
+  #sidebar .nav-group-links a { padding-left: 18px; }
+  #sidebar nav a svg { flex: 0 0 18px; width: 18px; height: 18px; }
+  #sidebar nav a span { min-width: 0; line-height: 1.45; }
+  #sidebar .side-footer { flex: 0 0 auto; margin: 12px 0 0; padding: 12px 10px 0; border-top: 1px solid #ffffff18; overflow-wrap: anywhere; }
+  #sidebar .brand-symbol { display: none; }
+  @media (min-width: 701px) {
+    .app-shell { grid-template-columns: 260px minmax(0, 1fr); }
+    .app-shell.collapsed { grid-template-columns: 76px minmax(0, 1fr); }
+    .collapsed #sidebar { padding: 16px 10px 12px; }
+    .collapsed #sidebar .side-brand { flex-direction: column; gap: 10px; min-height: 82px; margin-bottom: 12px; }
+    .collapsed #sidebar .brand { flex: 0 0 40px; width: 40px; height: 40px; }
+    .collapsed #sidebar .brand-lockup { display: none; }
+    .collapsed #sidebar .brand-symbol { display: block; position: relative; width: 38px; height: 38px; overflow: hidden; flex: 0 0 38px; }
+    .collapsed #sidebar .brand-symbol img { position: absolute; width: 114px; height: 38px; max-width: none; left: -3px; top: 0; object-fit: fill; }
+    .collapsed #sidebar .side-caption, .collapsed #sidebar .side-footer, .collapsed #sidebar .nav-group-toggle { display: none; }
+    .collapsed #sidebar nav { gap: 8px; }
+    .collapsed #sidebar .nav-group:not(:first-child) { border-top: 1px solid #ffffff18; padding-top: 8px; }
+    .collapsed #sidebar nav a { height: 42px; min-height: 42px; width: 48px; padding: 0; margin: 0 auto; justify-content: center; gap: 0; }
+    .collapsed #sidebar nav a span { display: none; }
+    .collapsed #sidebar nav a svg { margin: 0; }
+  }
+  @media (max-width: 700px) {
+    #sidebar { width: min(288px, 90vw); }
+    .mobile-open.collapsed #sidebar { width: min(288px, 90vw); }
+    #sidebar .brand-lockup { display: inline-flex; }
+    #sidebar .side-brand { flex-direction: row; }
+  }
+}

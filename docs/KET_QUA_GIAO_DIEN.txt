@@ -1,0 +1,15 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> lizz-university-management@hiện tại qa:interface
+> node scripts/qa-interface-all.js
+
+Exam export DOM: pagination, filters, empty results and room tab PASS
+
+MANAGER · storage bình thường: PASS
+STAFF · storage bình thường: PASS
+LECTURER · storage bình thường: PASS
+STUDENT · storage bình thường: PASS
+MANAGER · storage bị chặn: PASS
+STAFF · storage bị chặn: PASS
+LECTURER · storage bị chặn: PASS
+STUDENT · storage bị chặn: PASS

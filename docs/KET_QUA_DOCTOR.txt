@@ -1,0 +1,10 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> lizz-university-management@hiện tại doctor
+> node --env-file-if-exists=.env scripts/doctor.js
+
+.env not found. Continuing without it.
+Node: v2hiện tại
+Origin: http://localhost:3000
+LizzChat: chưa cấu hình đầy đủ
+Chưa sẵn sàng: ECONNREFUSED

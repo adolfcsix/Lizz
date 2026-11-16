@@ -1,0 +1,110 @@
+{
+  "groupChecks": [
+    true,
+    true
+  ],
+  "assets": [
+    {
+      "url": "/frontend/app/styles/glass.css",
+      "status": 200
+    },
+    {
+      "url": "/assets/brand/logo.png",
+      "status": 200
+    },
+    {
+      "url": "/assets/fonts/sans-regular.ttf",
+      "status": 200
+    }
+  ],
+  "passwordSetup": true,
+  "auth": {
+    "loginVisible": true,
+    "recoveryVisible": true,
+    "signedIn": true
+  },
+  "role": "LECTURER",
+  "blocked": true,
+  "results": [
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "home",
+      "heading": "Tổng quan giảng dạy",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "notifications",
+      "heading": "Thông báo",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "curriculum",
+      "heading": "Chương trình đào tạo",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "academics",
+      "heading": "Lớp giảng dạy",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "schedule",
+      "heading": "Lịch giảng dạy",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "attendance",
+      "heading": "Điểm danh và điều kiện dự thi",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "exams",
+      "heading": "Lịch thi",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "grades",
+      "heading": "Nhập điểm học phần",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "grade-reviews",
+      "heading": "Rà soát và phúc khảo điểm",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "profile",
+      "heading": "Tài khoản của tôi",
+      "failed": false
+    }
+  ],
+  "requests": [],
+  "errors": [],
+  "menu": {
+    "persisted": false,
+    "trapped": true,
+    "closed": true
+  },
+  "dialog": {
+    "named": true
+  }
+}

@@ -1,0 +1,6 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> lizz-university-management@hiện tại check
+> node scripts/check-source.js
+
+187 file JavaScript · 796 import tương đối · 0 lỗi

@@ -1,0 +1,146 @@
+{
+  "groupChecks": [
+    true,
+    true,
+    true
+  ],
+  "assets": [
+    {
+      "url": "/frontend/app/styles/glass.css",
+      "status": 200
+    },
+    {
+      "url": "/assets/brand/logo.png",
+      "status": 200
+    },
+    {
+      "url": "/assets/fonts/sans-regular.ttf",
+      "status": 200
+    }
+  ],
+  "passwordSetup": true,
+  "auth": {
+    "loginVisible": true,
+    "recoveryVisible": true,
+    "signedIn": true
+  },
+  "role": "STUDENT",
+  "blocked": true,
+  "results": [
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "home",
+      "heading": "Tổng quan học tập",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "notifications",
+      "heading": "Thông báo",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "students",
+      "heading": "Hồ sơ của tôi",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "profile-requests",
+      "heading": "Yêu cầu hồ sơ của tôi",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "student-status",
+      "heading": "Bảo lưu và quay lại học",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "student-services",
+      "heading": "Thủ tục sinh viên",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "curriculum",
+      "heading": "Chương trình của tôi",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "academics",
+      "heading": "Đăng ký học phần",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "schedule",
+      "heading": "Lịch học của tôi",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "attendance",
+      "heading": "Điểm danh và điều kiện dự thi",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "finance",
+      "heading": "Học phí và công nợ",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "exams",
+      "heading": "Lịch thi",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "grades",
+      "heading": "Kết quả học tập",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "grade-reviews",
+      "heading": "Phúc khảo điểm",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "profile",
+      "heading": "Tài khoản của tôi",
+      "failed": false
+    }
+  ],
+  "requests": [],
+  "errors": [],
+  "menu": {
+    "persisted": false,
+    "trapped": true,
+    "closed": true
+  },
+  "dialog": {
+    "named": true
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "groupChecks": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "assets": [
+    {
+      "url": "/frontend/app/styles/glass.css",
+      "status": 200
+    },
+    {
+      "url": "/assets/brand/logo.png",
+      "status": 200
+    },
+    {
+      "url": "/assets/fonts/sans-regular.ttf",
+      "status": 200
+    }
+  ],
+  "passwordSetup": true,
+  "auth": {
+    "loginVisible": true,
+    "recoveryVisible": true,
+    "signedIn": true
+  },
+  "role": "MANAGER",
+  "blocked": false,
+  "results": [
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "home",
+      "heading": "Tổng quan điều hành",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "tasks",
+      "heading": "Giao việc và điều phối",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "notifications",
+      "heading": "Thông báo",
+      "failed": false
+    },
+    {
+      "forms": [
+        {
+          "button": "new-transfer",
+          "title": "Lập hồ sơ chuyển lớp",
+          "duplicateIds": []
+        }
+      ],
+      "duplicateIds": [],
+      "page": "approvals",
+      "heading": "Hồ sơ chờ phê duyệt",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "students",
+      "heading": "Hồ sơ sinh viên",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "profile-requests",
+      "heading": "Yêu cầu cập nhật hồ sơ",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "student-status",
+      "heading": "Bảo lưu và quay lại học",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "catalog",
+      "heading": "Danh mục đào tạo",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "student-services",
+      "heading": "Thủ tục sinh viên",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "curriculum",
+      "heading": "Chương trình đào tạo",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "academics",
+      "heading": "Môn học và lớp học phần",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "schedule",
+      "heading": "Thời khóa biểu",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "attendance",
+      "heading": "Điểm danh và điều kiện dự thi",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "finance",
+      "heading": "Học phí và thu tiền",
+      "failed": false
+    },
+    {
+      "forms": [
+        {
+          "button": "new-room",
+          "title": "Thêm phòng",
+          "duplicateIds": []
+        }
+      ],
+      "duplicateIds": [],
+      "page": "exams",
+      "heading": "Lịch thi",
+      "failed": false
+    },
+    {
+      "forms": [
+        {
+          "button": "new-term",
+          "title": "Thêm học kỳ",
+          "duplicateIds": []
+        },
+        {
+          "button": "new-period",
+          "title": "Mở đợt đăng ký",
+          "duplicateIds": []
+        },
+        {
+          "button": "new-requirement",
+          "title": "Thêm môn tiên quyết",
+          "duplicateIds": []
+        }
+      ],
+      "duplicateIds": [],
+      "page": "policies",
+      "heading": "Đợt đăng ký và điều kiện",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "grades",
+      "heading": "Điểm và công bố",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "grade-reviews",
+      "heading": "Duyệt điều chỉnh điểm",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "accounts",
+      "heading": "Tài khoản và phân quyền",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "audit",
+      "heading": "Lịch sử thao tác",
+      "failed": false
+    },
+    {
+      "forms": [],
+      "duplicateIds": [],
+      "page": "profile",
+      "heading": "Tài khoản của tôi",
+      "failed": false
+    }
+  ],
+  "requests": [],
+  "errors": [],
+  "menu": {
+    "persisted": true,
+    "trapped": true,
+    "closed": true
+  },
+  "dialog": {
+    "named": true
+  }
+}
